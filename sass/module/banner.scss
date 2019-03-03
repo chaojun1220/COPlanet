@@ -1,0 +1,33 @@
+#banner-xs {
+    margin: 0;
+    @include small {
+        display: none;
+    }
+    #children-xs {
+        top: 55%;
+    }
+    #planet-xs {
+        top: 39%;
+    }
+    #questionmark-xs{
+        top:55%;
+        display: none;
+    }
+    
+    #underline-xs{
+        top:40.5%;
+        display: none; 
+    }
+}
+
+#banner-ml {
+    margin: 0;
+    @include xs {
+        display: none;
+    }
+    @include small {
+        display: block;
+    }
+
+}
+

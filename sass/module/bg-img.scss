@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+}
+
+.bg-img {
+    position: relative;
+    width: 100%;
+}
+
+.text-img {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.half-img {
+    width: 30%;
+}
+

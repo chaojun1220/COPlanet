@@ -1,0 +1,25 @@
+.projects {
+    margin-top:1.5em;
+    .row {
+        &, div {
+            padding: 0.5em 0.5em 0 0.5em;
+        }
+    }
+    .second-row {
+        @include xs {
+            display: none;
+        }
+        @include small {
+            display: inline-flex;
+        }
+    }
+}
+
+.projects2{
+    margin-top:1.5em;
+    background: black;
+    color: white;
+    img {
+        padding-bottom: 1.5em;
+    }
+}
